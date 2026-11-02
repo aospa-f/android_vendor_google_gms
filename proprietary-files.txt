@@ -1,11 +1,8 @@
 product/apex/com.google.android.gmssystem.prodvic.apex;APPS=PrebuiltGmsCoreVic;OVERRIDES=NetworkRecommendation,StatementService;PRESIGNED
 product/app/CalendarGoogle/CalendarGoogle.apk;OVERRIDES=Calendar;PRESIGNED
-product/app/Chrome64/Chrome64.apk;OVERRIDES=Browser,Browser2;PRESIGNED
 product/app/DeskClockGoogle/DeskClockGoogle.apk;OVERRIDES=DeskClock;PRESIGNED
 product/app/GoogleContacts/GoogleContacts.apk;OVERRIDES=Contacts;PRESIGNED
 product/app/LatinImeGoogle/LatinImeGoogle.apk;OVERRIDES=LatinIME;PRESIGNED
-product/app/Photos/Photos.apk;OVERRIDES=Gallery2,SnapdragonGallery;PRESIGNED
-product/app/TrichromeLibrary64/TrichromeLibrary64.apk;PRESIGNED
 product/app/WebViewGoogle64/WebViewGoogle64.apk;OVERRIDES=webview;PRESIGNED
 product/etc/default-permissions/default-permissions-google.xml
 product/etc/permissions/com.google.android.dialer.support.xml

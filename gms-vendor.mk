@@ -126,12 +126,9 @@ PRODUCT_PACKAGES += \
     GooglePrintRecommendationService \
     GooglePackageInstaller \
     CalendarGoogle \
-    Chrome64 \
     DeskClockGoogle \
     GoogleContacts \
     LatinImeGoogle \
-    Photos \
-    TrichromeLibrary64 \
     WebViewGoogle64 \
     ConfigUpdater \
     GWP \

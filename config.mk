@@ -19,7 +19,6 @@ PRODUCT_PACKAGES += \
     GmsConfigOverlayComms \
     GmsConfigOverlayGeotz \
     GmsConfigOverlayGSA \
-    GmsConfigOverlayPhotos \
     GmsContactsProviderOverlay \
     GmsSettingsOverlay \
     GmsSettingsOverlaySafetyCenter \
