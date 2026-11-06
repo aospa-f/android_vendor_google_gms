@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/gms/proprietary/product/etc/sysconfig/google-initial-package-stopped-states.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-initial-package-stopped-states.xml \
     vendor/google/gms/proprietary/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
     vendor/google/gms/proprietary/product/etc/sysconfig/google_wifi_provisioner.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_wifi_provisioner.xml \
+    vendor/google/gms/proprietary/product/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
     vendor/google/gms/proprietary/system/etc/permissions/privapp-permissions-google-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google-system.xml \
     vendor/google/gms/proprietary/system/etc/sysconfig/google-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/google-hiddenapi-package-allowlist.xml \
     vendor/google/gms/proprietary/system_ext/etc/permissions/privapp-permissions-google-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-system_ext.xml \
@@ -140,6 +141,7 @@ PRODUCT_PACKAGES += \
     GoogleRestore \
     Messages \
     Phonesky \
+    Wellbeing \
     GoogleServicesFramework \
     SetupWizard \
     com.google.android.dialer.support \
