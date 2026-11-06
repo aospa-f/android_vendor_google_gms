@@ -12,6 +12,7 @@ from extract_utils_gms.module import ExtractUtilsGmsModule
 blob_fixups: blob_fixups_user_type = {
     (
         'product/apex/com.google.android.gmssystem.prodvic.apex',
+        'product/app/TrichromeLibrary64/TrichromeLibrary64.apk',
         'product/app/WebViewGoogle64/WebViewGoogle64.apk',
         'product/priv-app/Messages/Messages.apk',
         'product/priv-app/Phonesky/Phonesky.apk',
