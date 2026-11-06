@@ -64,7 +64,7 @@ endif
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.alarm_alert=Fresh_morning.ogg \
     ro.config.notification_sound=Kernel.ogg \
-    ro.config.ringtone=The_next_adventure.ogg
+    ro.config.ringtone=Dan_Da_Dan_Otonoke_Marimba.flac
 
 # Sepolicy
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
@@ -73,3 +73,5 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     vendor/google/gms/sepolicy/private
 
+PRODUCT_COPY_FILES += \
+    vendor/google/gms/proprietary/product/media/audio/ringtones/Dan_Da_Dan_Otonoke_Marimba.flac:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Dan_Da_Dan_Otonoke_Marimba.flac
